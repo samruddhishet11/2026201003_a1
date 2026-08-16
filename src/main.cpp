@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+void runLogin();
 
 void printWelcome() 
 {
@@ -30,7 +31,7 @@ int main() {
     std::cout<<"Choose an option:";
     std::getline(std::cin, c);
     if (c == "1") 
-    std::cout << "Login will be available in the next feature branch.\n"; 
+    void runLogin(); 
     else if (c == "2")
     std::cout << "Profile will be available in the next feature branch.\n";
     else if (c == "3")
