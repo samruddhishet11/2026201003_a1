@@ -28,3 +28,9 @@ Enter 5 to Exit
 
 The main objective of this program is to be able to easily understand Git Workflow.
 The code is developed in small steps and every change receives a commit.
+
+Fixes to common issues:
+If `g++` is not recognised, close Git Bash and open it again. Then run:
+g++ --version
+If GitHub does not show recent changes, use:
+git push
