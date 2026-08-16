@@ -29,6 +29,17 @@ int main() {
 
     std::cout<<"Choose an option:";
     std::getline(std::cin, c);
-    std::cout<<"You selected option "<<c<<".\n";
+    if (choice == "1") 
+    std::cout << "Login will be available in the next feature branch.\n"; 
+    else if (choice == "2")
+    std::cout << "Profile will be available in the next feature branch.\n";
+    else if (choice == "3")
+    std::cout << "Dashboard will be available in the next feature branch.\n";
+    else if (choice == "4")
+    std::cout << "Settings will be available in the next feature branch.\n";
+    else if (choice == "5") 
+    std::cout << "Bye\n";
+    else
+    std::cout << "Please choose a number from 1 to 5.\n";
     return 0;
 }
