@@ -2,6 +2,7 @@
 #include <string>
 void runLogin();
 void displayprofile();
+void showDashboard();
 
 void printWelcome() 
 {
@@ -32,11 +33,11 @@ int main() {
     std::cout<<"Choose an option:";
     std::getline(std::cin, c);
     if (c == "1") 
-    void runLogin(); 
+    runLogin(); 
     else if (c == "2")
-    void displayprofile();
+    displayprofile();
     else if (c == "3")
-    std::cout << "Dashboard will be available in the next feature branch.\n";
+    showDashboard();
     else if (c == "4")
     std::cout << "Settings will be available in the next feature branch.\n";
     else if (c == "5") 
