@@ -2,7 +2,8 @@
 #include <string>
 void runLogin();
 void displayprofile();
-void showDashboard();
+void showdashboard();
+void displaysettings();
 
 void printWelcome() 
 {
@@ -37,9 +38,9 @@ int main() {
     else if (c == "2")
     displayprofile();
     else if (c == "3")
-    showDashboard();
+    showdashboard();
     else if (c == "4")
-    std::cout << "Settings will be available in the next feature branch.\n";
+    displaysettings();
     else if (c == "5") 
     std::cout << "Bye\n";
     else
