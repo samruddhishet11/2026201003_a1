@@ -12,3 +12,8 @@ void course()
     std::cout<<"Course: Computer Science\n";
     std::cout<<"Year: First year\n";
 }
+
+void showAcademicStatus()
+{
+    std::cout<<"Academic Status: Active\n";
+}
