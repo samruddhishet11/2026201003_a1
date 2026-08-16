@@ -18,3 +18,12 @@ std::string getusername()
 bool isUnamevalid(const std::string& uname) {
     return uname.length() >= 3;
 }
+
+void runLogin() {
+    showLoginWelcome();
+    std::string uname = getusername();
+    if(isUnameValid(uname)) 
+        std::cout<<"Login successful. Welcome,"<<username<<".\n";
+    else 
+        std::cout<<"Username must contain at least 3 characters.\n";
+}
