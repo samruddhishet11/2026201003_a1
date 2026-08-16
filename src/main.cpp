@@ -20,7 +20,7 @@ void showmenu()
     std::cout<<"2. View Profile\n";
     std::cout<<"3. View Dashboard\n";
     std::cout<<"4. View Settings\n";
-    std::cout<<"5. Exit\n";
+    std::cout<<"5. Close the portal\n";
 }
 
 int main() {
