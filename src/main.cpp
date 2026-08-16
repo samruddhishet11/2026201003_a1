@@ -29,15 +29,15 @@ int main() {
 
     std::cout<<"Choose an option:";
     std::getline(std::cin, c);
-    if (choice == "1") 
+    if (c == "1") 
     std::cout << "Login will be available in the next feature branch.\n"; 
-    else if (choice == "2")
+    else if (c == "2")
     std::cout << "Profile will be available in the next feature branch.\n";
-    else if (choice == "3")
+    else if (c == "3")
     std::cout << "Dashboard will be available in the next feature branch.\n";
-    else if (choice == "4")
+    else if (c == "4")
     std::cout << "Settings will be available in the next feature branch.\n";
-    else if (choice == "5") 
+    else if (c == "5") 
     std::cout << "Bye\n";
     else
     std::cout << "Please choose a number from 1 to 5.\n";
