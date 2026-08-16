@@ -14,3 +14,7 @@ std::string getusername()
     std::getline(std::cin, uname);
     return uname;
 }
+
+bool isUnamevalid(const std::string& uname) {
+    return uname.length() >= 3;
+}
