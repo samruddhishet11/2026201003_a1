@@ -22,8 +22,8 @@ bool isUnamevalid(const std::string& uname) {
 void runLogin() {
     showLoginWelcome();
     std::string uname = getusername();
-    if(isUnameValid(uname)) 
-        std::cout<<"Login successful. Welcome,"<<username<<".\n";
+    if(isUnamevalid(uname)) 
+        std::cout<<"Login successful. Welcome,"<<uname<<".\n";
     else 
         std::cout<<"Username must contain at least 3 characters.\n";
 }
