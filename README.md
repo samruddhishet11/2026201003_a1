@@ -20,3 +20,8 @@ Run the program using ./student_portal.exe
 
 The application will provide several features such as:
 Login, Profile, Dashboard, Academics, Exit
+
+Using the program:
+Enter the number of the option you want and press Enter.
+It will display the required details.
+Enter 5 to Exit 
