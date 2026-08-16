@@ -17,3 +17,6 @@ g++ -std=c++17 src/main.cpp -o student_portal
 
 Running the program:
 Run the program using ./student_portal.exe 
+
+The application will provide several features such as:
+Login, Profile, Dashboard, Academics, Exit
