@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 void runLogin();
+void displayprofile();
 
 void printWelcome() 
 {
@@ -33,7 +34,7 @@ int main() {
     if (c == "1") 
     void runLogin(); 
     else if (c == "2")
-    std::cout << "Profile will be available in the next feature branch.\n";
+    void displayprofile();
     else if (c == "3")
     std::cout << "Dashboard will be available in the next feature branch.\n";
     else if (c == "4")
