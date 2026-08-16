@@ -6,4 +6,5 @@ void displaysettings()
     std::cout<<"Notifications: Enabled\n";
     std::cout<<"Theme: Light mode\n";
     std::cout << "Language: English\n";
+    std::cout << "Password Protection: Enabled\n";
 }
