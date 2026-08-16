@@ -10,3 +10,10 @@ Setup
 1. Clone the repository from GitHub.
 2. Open Git Bash in the project folder.
 3. Make sure g++ is installed by running `g++ --version`.
+
+Compiling the program:
+Open Git Bash inside the project folder and compile the program using:
+g++ -std=c++17 src/main.cpp -o student_portal
+
+Running the program:
+Run the program using ./student_portal.exe 
