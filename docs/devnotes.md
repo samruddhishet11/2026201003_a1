@@ -1,0 +1,1 @@
+This file records useful notes about the student portal project.
