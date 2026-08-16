@@ -34,3 +34,5 @@ If `g++` is not recognised, close Git Bash and open it again. Then run:
 g++ --version
 If GitHub does not show recent changes, use:
 git push
+
+Release annotated tag v1.0
