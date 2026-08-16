@@ -25,3 +25,6 @@ Using the program:
 Enter the number of the option you want and press Enter.
 It will display the required details.
 Enter 5 to Exit 
+
+The main objective of this program is to be able to easily understand Git Workflow.
+The code is developed in small steps and every change receives a commit.
